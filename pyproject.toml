@@ -1,0 +1,25 @@
+[project]
+name = "5123-project-2"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Reagan",email = "rrr.chanhiulok@gmail.com"}
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel (>=7.2.0,<8.0.0)",
+    "matplotlib (>=3.10.7,<4.0.0)",
+    "nbclient (>=0.10.2,<0.11.0)",
+    "nbformat (>=5.10.4,<6.0.0)",
+    "pandas (>=2.3.0,<3.0.0)",
+    "scikit-learn (>=1.7.2,<2.0.0)",
+    "xgboost (>=3.1.0,<4.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
